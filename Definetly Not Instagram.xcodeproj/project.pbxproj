@@ -18,9 +18,12 @@
 		15EDF3D12279D60C006BCB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EDF3CF2279D60C006BCB59 /* LaunchScreen.storyboard */; };
 		15EDF3D92279DF9F006BCB59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15EDF3D82279DF9F006BCB59 /* GoogleService-Info.plist */; };
 		15EDF3DB2279E74B006BCB59 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDF3DA2279E74B006BCB59 /* SignInViewController.swift */; };
+		15EE0A6A2295F0C9003E30F4 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE0A692295F0C9003E30F4 /* GridLayout.swift */; };
+		15EE0A6C22960207003E30F4 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE0A6B22960207003E30F4 /* FavoritesViewController.swift */; };
 		15EE0ABB227A25A600A7F955 /* InstagramTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE0ABA227A25A600A7F955 /* InstagramTabbarController.swift */; };
 		15EE0ABD227A392A00A7F955 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE0ABC227A392A00A7F955 /* CreatePostViewController.swift */; };
 		15EE0ABF227A41CA00A7F955 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE0ABE227A41CA00A7F955 /* DataManager.swift */; };
+		15EEE7D02295ECD900C6AF16 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EEE7CF2295ECD900C6AF16 /* SearchViewController.swift */; };
 		15F0CA8422808FB2006053B2 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0CA8322808FB2006053B2 /* URLImageView.swift */; };
 		15F14936227CA7110093ECBC /* FeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F14934227CA7110093ECBC /* FeedViewCell.swift */; };
 		15F14937227CA7110093ECBC /* FeedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F14935227CA7110093ECBC /* FeedViewCell.xib */; };
@@ -42,9 +45,12 @@
 		15EDF3D22279D60C006BCB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EDF3D82279DF9F006BCB59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		15EDF3DA2279E74B006BCB59 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		15EE0A692295F0C9003E30F4 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		15EE0A6B22960207003E30F4 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		15EE0ABA227A25A600A7F955 /* InstagramTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTabbarController.swift; sourceTree = "<group>"; };
 		15EE0ABC227A392A00A7F955 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		15EE0ABE227A41CA00A7F955 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		15EEE7CF2295ECD900C6AF16 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		15F0CA8322808FB2006053B2 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
 		15F14934227CA7110093ECBC /* FeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewCell.swift; sourceTree = "<group>"; };
 		15F14935227CA7110093ECBC /* FeedViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewCell.xib; sourceTree = "<group>"; };
@@ -91,7 +97,9 @@
 				15EE0ABA227A25A600A7F955 /* InstagramTabbarController.swift */,
 				15EE0ABC227A392A00A7F955 /* CreatePostViewController.swift */,
 				15EDF3C62279D608006BCB59 /* HomeFeedViewController.swift */,
+				15EEE7CF2295ECD900C6AF16 /* SearchViewController.swift */,
 				15EDD515229488CB00B3AA1D /* ProfileViewController.swift */,
+				15EE0A6B22960207003E30F4 /* FavoritesViewController.swift */,
 				15EE0ABE227A41CA00A7F955 /* DataManager.swift */,
 				15F14934227CA7110093ECBC /* FeedViewCell.swift */,
 				15EDD517229496F300B3AA1D /* PhotoViewCell.swift */,
@@ -103,6 +111,7 @@
 				15EDF3CF2279D60C006BCB59 /* LaunchScreen.storyboard */,
 				15EDF3D22279D60C006BCB59 /* Info.plist */,
 				15EDF3D82279DF9F006BCB59 /* GoogleService-Info.plist */,
+				15EE0A692295F0C9003E30F4 /* GridLayout.swift */,
 			);
 			path = "Definetly Not Instagram";
 			sourceTree = "<group>";
@@ -288,10 +297,13 @@
 			files = (
 				15EDF3DB2279E74B006BCB59 /* SignInViewController.swift in Sources */,
 				15EDF3C92279D608006BCB59 /* SecondViewController.swift in Sources */,
+				15EE0A6C22960207003E30F4 /* FavoritesViewController.swift in Sources */,
 				15EDD516229488CB00B3AA1D /* ProfileViewController.swift in Sources */,
 				15F0CA8422808FB2006053B2 /* URLImageView.swift in Sources */,
 				15EDF3C52279D608006BCB59 /* AppDelegate.swift in Sources */,
 				15EE0ABF227A41CA00A7F955 /* DataManager.swift in Sources */,
+				15EE0A6A2295F0C9003E30F4 /* GridLayout.swift in Sources */,
+				15EEE7D02295ECD900C6AF16 /* SearchViewController.swift in Sources */,
 				15F14936227CA7110093ECBC /* FeedViewCell.swift in Sources */,
 				15EDF3C72279D608006BCB59 /* HomeFeedViewController.swift in Sources */,
 				15EE0ABD227A392A00A7F955 /* CreatePostViewController.swift in Sources */,

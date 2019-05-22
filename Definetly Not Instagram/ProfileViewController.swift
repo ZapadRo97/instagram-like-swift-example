@@ -159,6 +159,13 @@ class ProfileViewController: UIViewController {
         present(pickerController, animated: true, completion: nil)
     }
     
+    @IBAction func follow(_ sender: Any) {
+        let alertController = UIAlertController(title: "Error", message: "Not implemented yet.", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title:"Dismiss", style:.default))
+        self.present(alertController, animated:true, completion:nil)
+    }
+    
+    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
     }

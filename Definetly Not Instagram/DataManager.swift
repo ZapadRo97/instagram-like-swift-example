@@ -253,5 +253,27 @@ final class DataManager {
         })
     }
     
+    func search(for searchText: String, callback: @escaping ([PostModel]) -> ()) {
+        let key = "description"
+        databaseRef
+            .child("posts")
+            .queryOrdered(byChild: key)
+            .queryStarting(atValue: searchText, childKey: key)
+            .queryEnding(atValue: searchText + "\u{f8ff}", childKey:key)
+            .observeSingleEvent(of: .value, with: {
+                snapshot in
+                let items: [PostModel] = snapshot.children.compactMap {
+                    child in
+                    guard let child = child as? DataSnapshot else {
+                        return nil
+                    }
+                    return PostModel.init(snapshot: child)
+                }
+                DispatchQueue.main.async {
+                    callback(items)
+                }
+            })
+    }
+    
     
 }
